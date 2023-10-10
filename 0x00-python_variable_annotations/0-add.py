@@ -1,9 +1,16 @@
 #!/usr/bin/env python3
-'''Task 0's module.
-'''
+
+"""
+    Add two floating-point numbers.
+
+    Args:
+        a (float): The first floating-point number.
+        b (float): The second floating-point number.
+
+    Returns:
+        float: The sum of 'a' and 'b' as a float.
+    """
 
 
 def add(a: float, b: float) -> float:
-    '''Adds two floating-point numbers.
-    '''
     return a + b
