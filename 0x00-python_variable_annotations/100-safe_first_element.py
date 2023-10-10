@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Contains Augmented code with the correct duck-typed annotations."""
-from typing import Any, Union, Sequence
+'''Task 10's module.
+'''
+from typing import Any, Sequence, Union
 
 
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
-    """Return the first element of a list or None if the list is empty."""
+    '''Retrieves the first element of a sequence if it exists.
+    '''
     if lst:
         return lst[0]
     else:
